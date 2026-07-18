@@ -1,0 +1,19 @@
+{
+  "dataset": {
+    "total_images": 20000,
+    "base_folder": "data/Database",
+    "extensions": [".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff"],
+    "verbose": false,
+    "subsets": [
+      { "name": "dataset1_small",  "target_size": 512  },
+      { "name": "dataset2_medium", "target_size": 1024 },
+      { "name": "dataset3_large",  "target_size": 2048 },
+      { "name": "dataset4_xlarge", "target_size": 4096 }
+    ]
+  },
+  "pipeline": {
+    "python_path": "python",
+    "script": "data/dataset/Automation.py",
+    "source_url": "https://archive.org/download/MSCoco2017/panoptic_annotations_trainval2017.zip"
+  }
+}
