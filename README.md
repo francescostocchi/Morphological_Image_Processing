@@ -34,6 +34,6 @@ Make sure you have the following installed:
 
 ### Running the application
 
-Run it **from within Visual Studio** (`Ctrl+F5`, or the Start button) rather than launching the built `.exe` directly.
+Run it **from within Visual Studio** (`Ctrl+F5`, or the Start button).
 
 > All configuration (dataset sizes, source URL, image count) is centralized in `data/dataset/config.json`. On first run, if the image database is missing or incomplete, it is downloaded and generated automatically before benchmarking starts.
